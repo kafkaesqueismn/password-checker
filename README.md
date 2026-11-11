@@ -1,5 +1,7 @@
 # Password Checker
 
+[![tests](https://github.com/kafkaesqueismn/password-checker/actions/workflows/tests.yml/badge.svg)](https://github.com/kafkaesqueismn/password-checker/actions/workflows/tests.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-8b6fe0.svg)](LICENSE)
+
 A command-line tool that scores how strong a password is and checks whether it
 has appeared in a known data breach, **without ever sending your password (or
 even its full hash) over the internet.**
@@ -110,3 +112,7 @@ tests/test_password_checker.py   pytest tests (network calls are mocked)
 requirements.txt                 dependencies: requests, pytest
 pytest.ini                       tells pytest where to find the code
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
